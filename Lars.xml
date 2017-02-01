@@ -24,7 +24,7 @@
     <option name="ignoreAnonymousClassMethods" value="false" />
   </inspection_tool>
   <inspection_tool class="NestedConditionalExpression" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="NestedMethodCall" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+  <inspection_tool class="NestedMethodCall" enabled="false" level="WEAK WARNING" enabled_by_default="false">
     <option name="m_ignoreFieldInitializations" value="true" />
   </inspection_tool>
   <inspection_tool class="ObjectNotify" enabled="true" level="WARNING" enabled_by_default="true" />
