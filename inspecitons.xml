@@ -1,0 +1,69 @@
+<profile version="1.0">
+  <option name="myName" value="Lars" />
+  <inspection_tool class="Anonymous2MethodRef" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AssertEqualsBetweenInconvertibleTypes" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BigDecimalLegacyMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ClassCoupling" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_includeJavaClasses" value="false" />
+    <option name="m_includeLibraryClasses" value="false" />
+    <option name="m_limit" value="7" />
+  </inspection_tool>
+  <inspection_tool class="CollectionAddAllCanBeReplacedWithConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantDeclaredInInterface" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="Convert2MethodRef" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DiamondCanBeReplacedWithExplicitTypeArguments" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="ExtendsObject" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="Guava" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="IncrementDecrementUsedAsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InterfaceMayBeAnnotatedFunctional" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LambdaBodyCanBeCodeBlock" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="LambdaCanBeReplacedWithAnonymous" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="LambdaParameterTypeCanBeSpecified" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="REPORT_VARIABLES" value="true" />
+    <option name="REPORT_PARAMETERS" value="false" />
+    <option name="REPORT_CATCH_PARAMETERS" value="false" />
+    <option name="REPORT_FOREACH_PARAMETERS" value="false" />
+  </inspection_tool>
+  <inspection_tool class="MagicNumber" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MethodRefCanBeReplacedWithLambda" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="MissingDeprecatedAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreObjectMethods" value="true" />
+    <option name="ignoreAnonymousClassMethods" value="false" />
+  </inspection_tool>
+  <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_requireAnnotationsFirst" value="true" />
+  </inspection_tool>
+  <inspection_tool class="NestedConditionalExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NestedMethodCall" enabled="false" level="WEAK WARNING" enabled_by_default="false">
+    <option name="m_ignoreFieldInitializations" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ObjectNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectToString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreRequiredObsoleteCollectionTypes" value="false" />
+  </inspection_tool>
+  <inspection_tool class="OnDemandImport" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="OptionalContainsCollection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantFieldInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReturnFromFinallyBlock" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SingleStatementInBlock" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SuppressionAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadRun" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WeakerAccess" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+  </inspection_tool>
+</profile>
